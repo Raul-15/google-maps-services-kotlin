@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     private fun createMarker() {
         val coordinates = LatLng(-12.120176479753855, -76.99749694431837)
         val marker: MarkerOptions =
-            MarkerOptions().position(coordinates).title("Clinica Veterinaria Rondon")
+            MarkerOptions().position(coordinates).title("Aqui es Clinica Veterinaria Rondon")
         map.addMarker(marker)
         map.animateCamera(
             CameraUpdateFactory.newLatLngZoom(coordinates, 18f),
